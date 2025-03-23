@@ -6,9 +6,29 @@
     <title>Pushwoosh Test Site</title>
     <link rel="manifest" href="/manifest.json">
     <script src="https://cdn.pushwoosh.com/webpush/v3/pushwoosh-web-notifications.js" async></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+    </style>
 </head>
 <body>
-    <h1>Pushwoosh Test Site</h1>
+    <h1>Welcome to My Test Website!</h1>
+    <p>This is a sample website to test push notifications with Pushwoosh.</p>
+    <p>Here are some interesting facts:</p>
+    <ul>
+        <li>Fact 1: Push notifications can be sent to users even when they are not on your website.</li>
+        <li>Fact 2: They can drive user engagement and bring people back to your site.</li>
+        <li>Fact 3: Pushwoosh makes it easy to implement push notifications.</li>
+    </ul>
+    <img src="https://via.placeholder.com/300" alt="Sample Image">
     <script>
         Pushwoosh.push(['init', {
             applicationCode: '63FF2-58BBF',
